@@ -1,0 +1,15 @@
+server:
+  port: 8282
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/billdb
+    username: Bill
+    password: bill
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: none
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true

@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.maybank.dao.Employee" table="emp">
+        <id name="id"></id>
+        <property name="name" column="emp_name"></property>
+        <property name="designation" column="emp_designation"></property>
+        <property name="address" column="emp_address"></property>
+    </class>
+
+</hibernate-mapping>

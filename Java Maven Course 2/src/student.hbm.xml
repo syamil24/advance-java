@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="hibernate.Student"  table="STUDENT" >
+        <id name="pf" column="pf"  type = "int" > <generator class="native"/></id>
+        <property name="firstName" column="id"  type = "string"></property>
+        <property name="lastName" column="lName"  type = "string"></property>
+        <property name="city" column="city" type = "string"></property>
+    </class>
+
+</hibernate-mapping>
